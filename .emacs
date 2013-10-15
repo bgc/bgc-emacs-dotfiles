@@ -6,6 +6,12 @@
 		("melpa" . "http://melpa.milkbox.net/packages/")))
 (package-initialize)
 
+;;UTF-8
+(prefer-coding-system 'utf-8)
+(setq coding-system-for-read 'utf-8)
+(setq coding-system-for-write 'utf-8)
+
+
 ;;ONLY IF EMACS VERSION ABOVE 24
 ;;(if (>= emacs-major-version 24)
 ;;	(progn
