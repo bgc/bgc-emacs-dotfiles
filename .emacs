@@ -34,7 +34,6 @@
 		(setq mac-command-modifier 'meta)
 		(setq mac-option-modifier nil)
 		(setq visible-bell nil)
-	
 	)
 	((eq system-type 'gnu/linux)
 	;;GNU/Linux
@@ -43,3 +42,7 @@
 	;;any other case
 	)
 )
+
+(load "~/emacsdots/gui.el")
+(load "~/emacsdots/acmode.el")
+(load "~/emacsdots/orgsettings.el")
