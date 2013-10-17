@@ -43,6 +43,25 @@
 	)
 )
 
+
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+;; '(ecb-layout-name "leftright1")
+;; '(ecb-options-version "2.40")
+ )
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
 (load "~/emacsdots/gui.el")
 (load "~/emacsdots/acmode.el")
 (load "~/emacsdots/orgsettings.el")
+(load "~/emacsdots/js3mode.el")
+(load "~/emacsdots/ecbmode.el")
+(load "~/emacsdots/tabbarmode.el")
