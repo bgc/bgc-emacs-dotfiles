@@ -50,9 +50,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-;; '(ecb-layout-name "leftright1")
-;; '(ecb-options-version "2.40")
- )
+ '(ecb-source-path (quote ((#("c:/Users/gcosta/Documents/workspace/pspd.be/public/st/fe.pspd.cb.2013.06" 0 72 (help-echo "Mouse-2 toggles maximizing, mouse-3 displays a popup-menu")) "Whitelabel") ("c:/Users/gcosta/Documents/workspace/pspd.be/public/st/fe.pspd.2013.03" "Tryix") ("c:/Users/gcosta/Documents/workspace/pspd.be/public/st" "FrontEnds") ("c:" "c:") ("c:/Users/gcosta/Documents/workspace/pspd.be.dis/public/st/fe.cb.disney.2013.09" "Disney")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

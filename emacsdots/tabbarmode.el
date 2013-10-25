@@ -1,7 +1,4 @@
-(require 'tabbar-mode)
 (require 'tabbar-ruler)
-
-(setq tabbar-ruler-global-tabbar t) ; If you want tabbar
 
  ;; Add a buffer modification state indicator in the tab label, and place a
  ;; space around the label to make it looks less crowd.
@@ -23,5 +20,7 @@
  ;; This doesn't work for revert, I don't know.
  ;;(add-hook 'after-revert-hook 'ztl-modification-state-change)
 (add-hook 'first-change-hook 'ztl-on-buffer-modification)
+(customize-set-variable 'tabbar-separator (quote (0.4)))
 
 (tabbar-mode)
+(setq tabbar-ruler-global-tabbar t) ; If you want tabbar(tabbar-mode)

@@ -15,10 +15,22 @@
 ;;(global-whitespace-mode t)
 
 (require 'whitespace)
- (setq whitespace-style '(face empty spaces newline tabs lines-tail trailing))
+;;(setq whitespace-style '(face empty spaces newline tabs lines-tail trailing))
+(setq whitespace-style (quote (spaces tabs newline space-mark tab-mark newline-mark)))
  (global-whitespace-mode t)
+
+;;(setq whitespace-display-mappings
+       ;; all numbers are Unicode codepoint in decimal. try (insert-char 182 ) to see it
+  ;;    '(
+    ;;    (space-mark 32 [183] [46]) ; 32 SPACE, 183 MIDDLE DOT 「·」, 46 FULL STOP 「.」
+    ;;    (newline-mark 10 [8629 10]) ; 10 LINE FEED
+    ;;    (tab-mark 9 [8614 9] [92 9]) ; 9 TAB, 9655 WHITE RIGHT-POINTING TRIANGLE 「↦」
+    ;;    ))
+
 ;;(setq highlight-current-line-globally t nil (highlight-current-line))
 (setq highlight-current-line-whole-line t)
+;;(standard-display-ascii ?\t "↦ ")
+;;(standard-display-ascii ?\s "·")
 
 ;;don't show startup screen
 (setq inhibit-startup-screen t)
@@ -38,3 +50,8 @@
 ;;See also
 ;; `whitespace-style', `whitespace-newline' and
 ;;`whitespace-display-mappings'.
+
+
+;; only split horizontally
+(setq split-height-threshold nil
+	split-width-threshold 0)
