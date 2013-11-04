@@ -22,5 +22,22 @@
 (add-hook 'first-change-hook 'ztl-on-buffer-modification)
 (customize-set-variable 'tabbar-separator (quote (0.4)))
 
-(tabbar-mode)
+;;(tabbar-mode)
 (setq tabbar-ruler-global-tabbar t) ; If you want tabbar(tabbar-mode)
+;; keybindings
+(global-set-key [M-left] 'tabbar-backward-tab)
+(global-set-key [M-right] 'tabbar-forward-tab)
+(global-set-key [C-M-left] 'tabbar-backward-group)
+(global-set-key [C-M-right] tabbar-forward-group)
+
+
+;; customizations for tabbar mode
+;;(setq tabbar-background-color "#959A79") ;; the color of the tabbar background
+;;(custom-set-faces
+ ;;'(tabbar-default ((t (:inherit variable-pitch :background "#959A79" :foreground "black" :weight bold))))
+ ;;'(tabbar-button ((t (:inherit tabbar-default :foreground "dark red"))))
+ ;;'(tabbar-button-highlight ((t (:inherit tabbar-default))))
+ ;;'(tabbar-highlight ((t (:underline t))))
+ ;;'(tabbar-selected ((t (:inherit tabbar-default :background "#95CA59"))))
+ ;;'(tabbar-separator ((t (:inherit tabbar-default :background "#95CA59"))))
+ ;;'(tabbar-unselected ((t (:inherit tabbar-default)))))

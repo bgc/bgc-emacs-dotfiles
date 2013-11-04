@@ -55,3 +55,13 @@
 ;; only split horizontally
 (setq split-height-threshold nil
 	split-width-threshold 0)
+
+
+(add-hook 'js-mode-hook
+          (lambda ()
+            ;; Scan the file for nested code blocks
+            (imenu-add-menubar-index)
+            ;; Activate the folding mode
+            (hs-minor-mode t)))
+
+(set-face-attribute 'default nil :font "Ubuntu Mono" :height 143)

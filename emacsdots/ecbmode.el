@@ -3,7 +3,7 @@
 
 
 
-(customize-set-variable 'ecb-source-path (quote((#("c:/Users/gcosta/Documents/workspace/pspd.be/public/st/fe.pspd.cb.2013.06" 0 72 (help-echo "Mouse-2 toggles maximizing, mouse-3 displays a popup-menu")) "Whitelabel") ("c:/Users/gcosta/Documents/workspace/pspd.be/public/st/fe.pspd.2013.03" "Tryix") ("c:/Users/gcosta/Documents/workspace/pspd.be/public/st" "FrontEnds"))))
+(customize-set-variable 'ecb-source-path (quote((#("c:/Users/gcosta/Documents/workspace/pspd.be/public/st/fe.pspd.cb.2013.06" 0 72 (help-echo "Mouse-2 toggles maximizing, mouse-3 displays a popup-menu")) "Whitelabel") ("c:/Users/gcosta/Documents/workspace/pspd.be/public/st/fe.pspd.2013.03" "Tryix") ("c:/Users/gcosta/Documents/workspace/pspd.be/public/st" "FrontEnds") ("c:/Users/gcosta/Documents/workspace/pspd.be.dis/public/st/fe.cb.disney.2013.09" "Disney"))))
 
 (require 'ecb)
 (ecb-activate)

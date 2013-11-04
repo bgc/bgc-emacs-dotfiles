@@ -50,16 +50,22 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ecb-source-path (quote ((#("c:/Users/gcosta/Documents/workspace/pspd.be/public/st/fe.pspd.cb.2013.06" 0 72 (help-echo "Mouse-2 toggles maximizing, mouse-3 displays a popup-menu")) "Whitelabel") ("c:/Users/gcosta/Documents/workspace/pspd.be/public/st/fe.pspd.2013.03" "Tryix") ("c:/Users/gcosta/Documents/workspace/pspd.be/public/st" "FrontEnds") ("c:" "c:") ("c:/Users/gcosta/Documents/workspace/pspd.be.dis/public/st/fe.cb.disney.2013.09" "Disney")))))
+ '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+;; '(default ((t (:family "Ubuntu Mono" :foundry "outline" :slant normal :weight normal :height 143 :width normal))))
+)
 (load "~/emacsdots/gui.el")
 (load "~/emacsdots/acmode.el")
 (load "~/emacsdots/orgsettings.el")
 (load "~/emacsdots/js3mode.el")
-(load "~/emacsdots/ecbmode.el")
 (load "~/emacsdots/tabbarmode.el")
+;;(load "~/emacsdots/gnus.el")
+(load "~/emacsdots/keymaps.el")
+(load "~/emacsdots/flyjs.el")
+;;(load "~/emacsdots/nxhtml.el")
+(load "~/emacsdots/mcursors.el")
+(load "~/emacsdots/ecbmode.el")
